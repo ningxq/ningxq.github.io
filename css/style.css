@@ -1,0 +1,237 @@
+article,section,aside,nav,header,footer,address{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{list-style: none;}
+a{text-decoration: none;
+    cursor: pointer;
+}
+
+header>ul{
+    overflow: hidden;
+    background: url(../images/bj1_02.png) repeat-x;
+
+}
+header>ul>li{
+    height:78px;
+    float:left;
+}
+nav{
+    overflow: hidden;
+    background-color:#158687;
+}
+.nav{
+    height: 50px;
+    width: 930px;
+    margin: 0 auto;
+}
+.nav>ul>li{
+    float: left;
+}
+.nav>ul>li>a{
+    width: 60px;
+    height: 50px;
+    margin:0 30px;
+    line-height: 50px;
+    color:#ffffff;
+}
+header .logo{
+    width: 350px;
+    margin-left: 95px;
+    background:url(../images/logo.png) no-repeat center;
+}
+header .search{
+    width:401px;
+    margin-left: 179px;
+    background:url(../images/such.png) no-repeat center;
+}
+header .search input{
+    margin:29px 80px;
+    height: 20px;
+    border: 0px;
+}
+header .search img{
+    margin-bottom: -5px;
+    cursor: pointer;
+    margin-left: 38px;
+}
+header .login{
+    width: 81px;
+    background: url(../images/login.png) no-repeat center;
+}
+.ads{
+    overflow: hidden;
+    background-image: url(../images/ad.png) ;
+}
+.ads>li{
+    float: left;
+    height:395px;
+}
+.content{
+    overflow: hidden;
+    background: url(../images/content.png) repeat-x;
+}
+.content1,.content2{
+    background: #ffffff;
+    margin: 0 auto;
+    width:1012px;
+}
+.content1 h1,.content2 h1{
+    margin-top: 33px;
+    height:46px;
+    border-left:13px solid #a5dacc;
+    border-bottom: 1px solid #cccccc;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 46px;
+}
+.tj{
+    overflow: hidden;
+}
+.tj>div{
+    margin:10px 16px;
+}
+#s1{
+    margin:10px 0 10px 16px;
+    float: left;
+    width:320px;
+    height:216px;
+    background: url(../images/ad1.png)  no-repeat center;
+}
+#s2{
+    margin-left: 332px;
+    overflow: hidden;
+}
+#s2>div{
+    width:155px;
+    height:103px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#sr1{
+    background: url(../images/ad_03.png)  no-repeat center;
+}
+#sr2{
+   background: url(../images/ad_05.png)  no-repeat center;
+}
+#sr3{
+    background: url(../images/ad_07.png)  no-repeat center;
+}
+#sr4{
+    background: url(../images/ad_09.png)  no-repeat center;
+}
+#sr5{
+    background: url(../images/ad_15.png)  no-repeat center;
+}
+#sr6{
+    background: url(../images/ad_16.png)  no-repeat center;
+}
+#sr7{
+    background: url(../images/ad_17.png)  no-repeat center;
+}
+#sr8{
+    background: url(../images/ad_18.png)  no-repeat center;
+}
+#s3,#s4,#s5,#s6,#s7,#s8{
+    width:155px;
+    height:103px;
+    float:left;
+    margin:-10px 0 0 10px;
+}
+#s3{
+    margin-left: 16px;
+    background: url(../images/ad_24.png)  no-repeat center;
+}
+#s4{
+    background: url(../images/ad_26.png)  no-repeat center;
+}
+#s5{
+    background: url(../images/ad_28.png)  no-repeat center;
+}
+#s6{
+    background: url(../images/ad_29.png)  no-repeat center;
+}
+#s7{
+    background: url(../images/ad_30.png)  no-repeat center;
+}
+#s8{
+    background: url(../images/ad_31.png)  no-repeat center;
+}
+.content2>.c2_left,.c2_right{
+    float:left;
+    overflow: hidden;
+}
+ .news1,.news2{
+    overflow: hidden;
+}
+.news1 img,.news2 img{
+    /*display: inline;*/
+    float: left;
+    margin:10px 5px;
+}
+.hots{
+    overflow: hidden;
+}
+.oll,.olr{
+    float: left;
+}
+.oll>ul>li{
+    width: 20px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    background: #cccccc;
+    color:white;
+}
+.olr>ul>li{
+    font-size: 12px;
+    font-weight: bold;
+    height:15px;
+    margin-left: 15px;
+}
+.hots li{
+    margin-top: 10px;
+}
+.nav2>ul{
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.nav2>ul>li{
+    margin-left: 16px;
+    float: left;
+}
+.nav2>ul>li>a{
+    color: black;
+}
+footer{
+
+}
+footer>ul{
+    margin: 0 auto;
+    width:1004px;
+    height: 35px;
+    border: 1px solid skyblue;
+    overflow: hidden;
+}
+footer>ul>li{
+    float: left;
+    line-height: 35px;
+    margin-left: 35px;
+}
+.address{
+    width:1012px;
+    height: 80px;
+    background: url(../images/2.png) repeat-x;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.address p{
+    padding-top: 40px;
+    font-size: 12px;
+}
+
